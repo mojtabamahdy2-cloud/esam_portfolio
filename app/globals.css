@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
 :root {
-  /* Base Palette - Clean Warm Space (#FAF8F5) */
-  --color-bg: #FAF8F5;
-  --color-bg-elevated: #F8FAFC;
-  --color-surface: #FAF8F5;
-  --color-surface-elevated: #F0F7FA;
+  /* Base Palette - Clean Warm Space */
+  --color-bg: #ffffff;
+  --color-bg-elevated: #ffffff;
+  --color-surface: #ffffff;
+  --color-surface-elevated: #ffffff;
   --color-border: #E2E8F0;
   --color-border-hover: #CBD5E1;
 
@@ -38,7 +38,7 @@
 }
 
 @theme {
-  --color-white: #FAF8F5;
+  --color-white: #ffffff;
   --font-sans: var(--font-dm-sans), system-ui, -apple-system, sans-serif;
   --font-arabic: var(--font-almarai), system-ui, sans-serif;
   --font-calligraphy: var(--font-calligraphy), cursive;

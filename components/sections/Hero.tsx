@@ -10,7 +10,7 @@ import { RoleIconDisplay } from '@/components/ui/RoleIconDisplay';
 // Dynamic import of 3D WebGL Hero Canvas with SSR disabled
 const HeroScene = dynamic(() => import('@/components/3d/HeroScene'), {
   ssr: false,
-  loading: () => <div className="absolute inset-0 bg-[#FAF8F5]" />,
+  loading: () => <div className="absolute inset-0 bg-[#ffffff]" />,
 });
 
 export function HeroSection() {
@@ -31,7 +31,7 @@ export function HeroSection() {
   }, [roles.length]);
 
   return (
-    <section className="relative flex min-h-screen w-full flex-col justify-center overflow-hidden bg-[#FAF8F5] px-6 py-24 md:px-12">
+    <section className="relative flex min-h-screen w-full flex-col justify-center overflow-hidden bg-[#ffffff] px-6 py-24 md:px-12">
       {/* 3D WebGL Interactive Background */}
       <HeroScene />
 

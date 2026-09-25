@@ -50,26 +50,6 @@ export function ProjectsSection() {
               {t('headline')}
             </h2>
           </div>
-
-          <div className="flex flex-wrap gap-1.5 rounded-2xl border border-slate-200 bg-[#FAF8F5] p-1.5 shadow-xs">
-            {categories.map((cat) => {
-              const isActive = activeCategory === cat.id;
-              return (
-                <button
-                  key={cat.id}
-                  onClick={() => setActiveCategory(cat.id)}
-                  data-cursor="link"
-                  className={`rounded-xl px-4 py-2 text-xs font-semibold transition-all duration-200 ${
-                    isActive
-                      ? 'bg-[#003B5C] text-white shadow-xs'
-                      : 'text-slate-600 hover:text-[#003B5C] hover:bg-slate-50'
-                  }`}
-                >
-                  {cat.label}
-                </button>
-              );
-            })}
-          </div>
         </div>
 
         {/* Project Cards Grid */}
@@ -94,7 +74,7 @@ export function ProjectsSection() {
                       setSelectedProject(project);
                     }
                   }}
-                  className="group relative flex flex-col overflow-hidden rounded-3xl border border-slate-200/90 bg-[#FAF8F5] shadow-xs transition-all duration-300 hover:border-slate-300 hover:shadow-card-hover cursor-pointer"
+                  className="group relative flex flex-col overflow-hidden rounded-3xl border border-slate-200/90 bg-[#ffffff] shadow-xs transition-all duration-300 hover:border-slate-300 hover:shadow-card-hover cursor-pointer"
                 >
                   {/* Direct Link Overlay if project has an external URL */}
                   {project.liveUrl && (
@@ -120,7 +100,7 @@ export function ProjectsSection() {
                     {/* Hover inspect hint */}
                     {!project.liveUrl && (
                       <div className="absolute inset-0 z-10 flex items-center justify-center bg-[#003B5C]/25 opacity-0 backdrop-blur-[2px] transition-opacity duration-300 group-hover:opacity-100 pointer-events-none">
-                        <div className="flex items-center gap-1.5 rounded-full bg-[#FAF8F5]/95 px-3.5 py-1.5 font-mono text-[11px] font-bold text-[#003B5C] shadow-md backdrop-blur-md">
+                        <div className="flex items-center gap-1.5 rounded-full bg-[#ffffff]/95 px-3.5 py-1.5 font-mono text-[11px] font-bold text-[#003B5C] shadow-md backdrop-blur-md">
                           <ZoomIn className="h-3.5 w-3.5" />
                           <span>{t('viewProject')}</span>
                         </div>
@@ -128,18 +108,15 @@ export function ProjectsSection() {
                     )}
 
                     {/* Top tags */}
-                    <div className="absolute top-4 left-4 right-4 z-10 flex items-center justify-between pointer-events-none">
-                      <span className="rounded-full border border-slate-200/90 bg-[#FAF8F5]/95 px-3 py-1 font-mono text-[10px] font-bold tracking-wider text-[#003B5C] uppercase shadow-xs backdrop-blur-md">
-                        {catLabel}
-                      </span>
+                    <div className="absolute top-4 left-4 right-4 z-10 flex items-center justify-end pointer-events-none">
                       <div className="flex items-center gap-1.5">
                         {project.liveUrl && (
-                          <span className="flex items-center gap-1 rounded-full border border-slate-200/90 bg-[#FAF8F5]/95 px-2 py-0.5 font-mono text-[10px] font-semibold text-[#003B5C] shadow-xs backdrop-blur-md transition-colors group-hover:bg-[#003B5C] group-hover:text-white">
+                          <span className="flex items-center gap-1 rounded-full border border-slate-200/90 bg-[#ffffff]/95 px-2 py-0.5 font-mono text-[10px] font-semibold text-[#003B5C] shadow-xs backdrop-blur-md transition-colors group-hover:bg-[#003B5C] group-hover:text-white">
                             <ExternalLink className="h-3 w-3" />
                             <ArrowUpRight className="h-3 w-3 transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                           </span>
                         )}
-                        <span className="rounded-full border border-slate-200/80 bg-[#FAF8F5]/90 px-2.5 py-0.5 font-mono text-[11px] font-semibold text-slate-600 shadow-xs backdrop-blur-md">
+                        <span className="rounded-full border border-slate-200/80 bg-[#ffffff]/90 px-2.5 py-0.5 font-mono text-[11px] font-semibold text-slate-600 shadow-xs backdrop-blur-md">
                           {project.year}
                         </span>
                       </div>
@@ -160,17 +137,6 @@ export function ProjectsSection() {
                       </p>
                     </div>
 
-                    {/* Bottom Tags */}
-                    <div className="mt-6 flex flex-wrap items-center gap-1.5 border-t border-slate-100 pt-4">
-                      {project.tags.map((tag, i) => (
-                        <span
-                          key={i}
-                          className="rounded-md bg-slate-100 px-2.5 py-1 font-mono text-[10px] text-slate-600"
-                        >
-                          #{tag}
-                        </span>
-                      ))}
-                    </div>
                   </div>
                 </motion.article>
               );
@@ -196,7 +162,7 @@ export function ProjectsSection() {
               exit={{ scale: 0.92, opacity: 0, y: 20 }}
               transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
               onClick={(e) => e.stopPropagation()}
-              className="relative flex flex-col max-h-[92vh] w-full max-w-5xl overflow-hidden rounded-3xl border border-white/15 bg-[#FAF8F5]/95 shadow-2xl backdrop-blur-xl"
+              className="relative flex flex-col max-h-[92vh] w-full max-w-5xl overflow-hidden rounded-3xl border border-white/15 bg-[#ffffff]/95 shadow-2xl backdrop-blur-xl"
             >
               {/* Header Bar */}
               <div className="flex items-center justify-between border-b border-slate-200/80 px-6 py-4">
@@ -233,7 +199,7 @@ export function ProjectsSection() {
               </div>
 
               {/* Footer with Details */}
-              <div className="border-t border-slate-200/80 bg-[#FAF8F5] px-6 py-4">
+              <div className="border-t border-slate-200/80 bg-[#ffffff] px-6 py-4">
                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
                   <div>
                     <h4 className="text-lg font-bold text-[#003B5C] sm:hidden">
@@ -242,13 +208,6 @@ export function ProjectsSection() {
                     <p className="text-xs text-slate-600 leading-relaxed max-w-2xl">
                       {locale === 'ar' ? selectedProject.descriptionAr : selectedProject.descriptionEn}
                     </p>
-                  </div>
-                  <div className="flex flex-wrap gap-1.5 shrink-0">
-                    {selectedProject.tags.map((tag, i) => (
-                      <span key={i} className="rounded-md bg-slate-100 px-2 py-0.5 font-mono text-[10px] text-slate-600">
-                        #{tag}
-                      </span>
-                    ))}
                   </div>
                 </div>
               </div>

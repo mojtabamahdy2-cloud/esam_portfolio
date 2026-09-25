@@ -46,7 +46,7 @@ const fragmentShader = `
     float dist = distance(uv, mouse);
     float mouseInfluence = smoothstep(0.35, 0.0, dist) * 0.15;
     
-    // Base #FAF8F5 Warm Palette & Deep Navy
+    // Base #ffffff Warm Palette & Deep Navy
     // Card Art Blue Palette (#003B5C)
     vec3 baseWhite = vec3(250.0 / 255.0, 248.0 / 255.0, 245.0 / 255.0);
     // Subtle cool tint / slate-50

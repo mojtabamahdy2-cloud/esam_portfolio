@@ -37,7 +37,7 @@ export function ServicesSection() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: '-30px' }}
                 transition={{ duration: 0.35, delay: index * 0.04 }}
-                className="group relative flex flex-col justify-start rounded-2xl border border-white/10 bg-[#FAF8F5] p-7 shadow-md transition-all duration-300 hover:border-white/30 hover:shadow-xl hover:-translate-y-1"
+                className="group relative flex flex-col justify-start rounded-2xl border border-white/10 bg-[#ffffff] p-7 shadow-md transition-all duration-300 hover:border-white/30 hover:shadow-xl hover:-translate-y-1"
               >
                 <h3 className="text-lg font-bold tracking-tight text-[#003B5C] mb-1.5 transition-colors group-hover:text-[#005684]">
                   {title}

@@ -109,10 +109,10 @@ function OrbGroup() {
               <div
                 className={`whitespace-nowrap rounded-md border px-2.5 py-0.5 font-mono text-[10px] font-bold shadow-xs pointer-events-none transition-all ${
                   isProd
-                    ? 'border-blue-200 bg-[#FAF8F5]/95 text-blue-700'
+                    ? 'border-blue-200 bg-[#ffffff]/95 text-blue-700'
                     : isHw
-                      ? 'border-sky-200 bg-[#FAF8F5]/95 text-sky-700'
-                      : 'border-slate-200 bg-[#FAF8F5]/95 text-[#003B5C]'
+                      ? 'border-sky-200 bg-[#ffffff]/95 text-sky-700'
+                      : 'border-slate-200 bg-[#ffffff]/95 text-[#003B5C]'
                 }`}
               >
                 {node.name}

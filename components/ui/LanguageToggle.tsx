@@ -29,7 +29,7 @@ export function LanguageToggle() {
         aria-label={locale === 'en' ? 'Switch to Arabic' : 'Switch to English'}
         data-cursor="link"
         dir="ltr"
-        className="group relative flex items-center gap-2 overflow-hidden rounded-full border border-slate-200 bg-[#FAF8F5]/90 px-3.5 py-1.5 text-xs font-semibold shadow-xs backdrop-blur-sm transition-all duration-200 hover:border-slate-300 hover:bg-slate-50 active:scale-[0.98]"
+        className="group relative flex items-center gap-2 overflow-hidden rounded-full border border-slate-200 bg-[#ffffff]/90 px-3.5 py-1.5 text-xs font-semibold shadow-xs backdrop-blur-sm transition-all duration-200 hover:border-slate-300 hover:bg-slate-50 active:scale-[0.98]"
       >
         <span
           className={`font-mono text-[11px] uppercase transition-colors ${

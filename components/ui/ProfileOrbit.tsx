@@ -23,7 +23,7 @@ interface ProfileOrbitProps {
 
 const FOCAL_X  = 50;    // % across the square container
 const FOCAL_Y  = 57.91; // % down  the square container
-const RADIUS   = 32;    // orbit radius as % of container side
+const RADIUS   = 37;    // orbit radius as % of container side
 
 export function ProfileOrbit({ className = '' }: ProfileOrbitProps) {
   const totalIcons = skillsData.length;
@@ -80,7 +80,7 @@ export function ProfileOrbit({ className = '' }: ProfileOrbitProps) {
               <div className="animate-profile-counter">
                 {/* Icon card */}
                 <div
-                  className="group relative flex items-center justify-center rounded-xl bg-[#FAF8F5] shadow-md border border-slate-100 transition-all duration-300 hover:scale-125 hover:shadow-lg hover:border-[#003B5C]/50 hover:z-30 cursor-pointer"
+                  className="group relative flex items-center justify-center rounded-xl bg-[#ffffff] shadow-md border border-slate-100 transition-all duration-300 hover:scale-125 hover:shadow-lg hover:border-[#003B5C]/50 hover:z-30 cursor-pointer"
                   style={{ padding: 6, width: 36, height: 36 }}
                   title={skill.name}
                 >

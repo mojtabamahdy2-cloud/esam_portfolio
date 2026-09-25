@@ -30,7 +30,7 @@ export function Nav() {
     <header
       className={`fixed top-0 right-0 left-0 z-40 transition-all duration-300 ${
         scrolled
-          ? 'border-b border-slate-200/80 bg-[#FAF8F5]/90 py-3 backdrop-blur-md shadow-xs'
+          ? 'border-b border-slate-200/80 bg-[#ffffff]/90 py-3 backdrop-blur-md shadow-xs'
           : 'bg-transparent py-5'
       }`}
     >
@@ -60,7 +60,7 @@ export function Nav() {
               <a
                 href={link.href}
                 data-cursor="link"
-                className="relative rounded-full px-4 py-1.5 text-xs font-medium text-slate-600 transition-colors duration-200 hover:text-[#003B5C] hover:bg-[#FAF8F5]"
+                className="relative rounded-full px-4 py-1.5 text-xs font-medium text-slate-600 transition-colors duration-200 hover:text-[#003B5C] hover:bg-[#ffffff]"
               >
                 {link.label}
               </a>
@@ -78,7 +78,7 @@ export function Nav() {
               target="_blank"
               rel="noopener noreferrer"
               data-cursor="link"
-              className="hidden items-center justify-center rounded-full border border-slate-300 bg-[#FAF8F5] px-4 py-2 font-mono text-xs font-semibold text-[#003B5C] transition-all duration-200 hover:border-[#003B5C] hover:bg-slate-50 md:inline-flex"
+              className="hidden items-center justify-center rounded-full border border-slate-300 bg-[#ffffff] px-4 py-2 font-mono text-xs font-semibold text-[#003B5C] transition-all duration-200 hover:border-[#003B5C] hover:bg-slate-50 md:inline-flex"
             >
               <span>{t('resume')}</span>
             </a>

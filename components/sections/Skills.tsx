@@ -9,7 +9,7 @@ export function SkillsSection() {
   const t = useTranslations('skills');
 
   return (
-    <section id="skills" className="relative min-h-screen w-full overflow-hidden bg-[#FAF8F5] py-28 px-6 md:px-12">
+    <section id="skills" className="relative min-h-screen w-full overflow-hidden bg-[#ffffff] py-28 px-6 md:px-12">
       <div className="mx-auto max-w-7xl">
         <div className="mb-14">
           <div className="max-w-2xl">
@@ -35,7 +35,7 @@ export function SkillsSection() {
                   key={skill.id}
                   className="group flex flex-col items-center justify-center gap-3 transition-all duration-200 hover:-translate-y-1"
                 >
-                  <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-[#FAF8F5] shadow-sm border border-slate-100 transition-all duration-200 group-hover:shadow-md">
+                  <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-[#ffffff] shadow-sm border border-slate-100 transition-all duration-200 group-hover:shadow-md">
                     {skill.logoUrl ? (
                       /* eslint-disable-next-line @next/next/no-img-element */
                       <img

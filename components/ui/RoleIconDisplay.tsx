@@ -4,7 +4,7 @@ import React from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 // Shared Wrapper for Image Icons
 const ImageIcon = ({ src, alt }: { src: string; alt: string }) => (
-  <div className="flex h-14 w-14 sm:h-16 sm:w-16 items-center justify-center rounded-2xl bg-[#FAF8F5] shadow-lg border border-slate-100 transition-transform hover:scale-105">
+  <div className="flex h-14 w-14 sm:h-16 sm:w-16 items-center justify-center rounded-2xl bg-[#ffffff] shadow-lg border border-slate-100 transition-transform hover:scale-105">
     {/* eslint-disable-next-line @next/next/no-img-element */}
     <img src={src} alt={alt} className="h-8 w-8 sm:h-10 sm:w-10 object-contain" />
   </div>

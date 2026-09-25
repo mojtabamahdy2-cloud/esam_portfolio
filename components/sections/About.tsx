@@ -29,7 +29,7 @@ export function AboutSection() {
   ];
 
   return (
-    <section id="about" className="relative min-h-screen w-full overflow-hidden bg-[#FAF8F5] py-28 px-6 md:px-12">
+    <section id="about" className="relative min-h-screen w-full overflow-hidden bg-[#ffffff] py-28 px-6 md:px-12">
       <div className="mx-auto max-w-7xl">
         {/* Asymmetric Split Layout */}
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-16 items-center">
@@ -44,7 +44,7 @@ export function AboutSection() {
             </p>
 
             {/* Stat Counter Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 rounded-2xl border border-slate-200 bg-[#FAF8F5] p-5 shadow-xs">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 rounded-2xl border border-slate-200 bg-[#ffffff] p-5 shadow-xs">
               {stats.map((stat, i) => (
                 <div key={i} className="space-y-1 sm:border-r last:border-r-0 border-slate-100 pr-3 rtl:sm:border-r-0 rtl:sm:border-l rtl:last:border-l-0 rtl:pl-3">
                   <div className="font-mono text-3xl font-black text-[#003B5C] md:text-4xl">
@@ -66,7 +66,7 @@ export function AboutSection() {
               <ProfileOrbit />
 
               {/* Portrait Photo of Esam Mohamed */}
-              <div className="relative z-10 w-64 h-64 sm:w-72 sm:h-72 select-none flex items-center justify-center drop-shadow-2xl">
+              <div className="relative z-10 w-60 h-60 sm:w-72 sm:h-72 select-none flex items-center justify-center drop-shadow-2xl">
                 <Image
                   src="/Profile picture/profile.png"
                   alt="Esam Mohamed"
