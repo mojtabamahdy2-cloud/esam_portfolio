@@ -1,0 +1,228 @@
+@import "tailwindcss";
+
+:root {
+  /* Base Palette - Clean Warm Space (#FAF8F5) */
+  --color-bg: #FAF8F5;
+  --color-bg-elevated: #F8FAFC;
+  --color-surface: #FAF8F5;
+  --color-surface-elevated: #F0F7FA;
+  --color-border: #E2E8F0;
+  --color-border-hover: #CBD5E1;
+
+  /* Card Art Blue Palette - Extracted from Calaheads (#003B5C) */
+  --color-navy-deep: #00283E;
+  --color-navy: #003B5C;
+  --color-navy-light: #005684;
+  --color-navy-tint: #F0F7FA;
+
+  /* Accent & Interactive */
+  --color-accent: #003B5C;
+  --color-accent-hover: #005684;
+  --color-blue: #006CA5;
+  --color-blue-subtle: #EBF5FA;
+  --color-blue-border: #BAE0F3;
+
+  /* Typography */
+  --color-text: #003B5C;
+  --color-text-muted: #4A677A;
+  --color-text-dim: #88A6BA;
+
+  /* Radii */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-pill: 9999px;
+
+  /* Custom Cursor size tokens */
+  --cursor-size: 32px;
+}
+
+@theme {
+  --color-white: #FAF8F5;
+  --font-sans: var(--font-dm-sans), system-ui, -apple-system, sans-serif;
+  --font-arabic: var(--font-almarai), system-ui, sans-serif;
+  --font-calligraphy: var(--font-calligraphy), cursive;
+  --font-calligraphy-ar: var(--font-arabic-calligraphy), cursive;
+  --color-bg: var(--color-bg);
+  --color-bg-elevated: var(--color-bg-elevated);
+  --color-surface: var(--color-surface);
+  --color-surface-elevated: var(--color-surface-elevated);
+  --color-border: var(--color-border);
+  --color-border-hover: var(--color-border-hover);
+  --color-navy-deep: var(--color-navy-deep);
+  --color-navy: var(--color-navy);
+  --color-navy-light: var(--color-navy-light);
+  --color-navy-tint: var(--color-navy-tint);
+  --color-accent: var(--color-accent);
+  --color-blue: var(--color-blue);
+  --color-text: var(--color-text);
+  --color-text-muted: var(--color-text-muted);
+}
+
+html {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  scroll-behavior: auto; /* Lenis handles smooth scrolling */
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Arabic typography overrides */
+[lang="ar"] body,
+[lang="ar"] {
+  font-family: var(--font-arabic), system-ui, sans-serif;
+  line-height: 1.8;
+  letter-spacing: normal !important;
+}
+
+[lang="ar"] h1,
+[lang="ar"] h2,
+[lang="ar"] h3,
+[lang="ar"] h4,
+[lang="ar"] button,
+[lang="ar"] input,
+[lang="ar"] textarea,
+[lang="ar"] select {
+  font-family: var(--font-arabic), system-ui, sans-serif;
+  letter-spacing: normal !important;
+}
+
+[lang="ar"] .text-display {
+  line-height: 1.15;
+  letter-spacing: normal !important;
+}
+
+[lang="ar"] .text-hero-sub {
+  line-height: 1.35;
+  letter-spacing: normal !important;
+}
+
+[lang="ar"] .text-section-title {
+  line-height: 1.25;
+  letter-spacing: normal !important;
+}
+
+/* Fluid Typography */
+.text-display {
+  font-size: clamp(3rem, 9vw, 9.5rem);
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+}
+
+.text-hero-sub {
+  font-size: clamp(1.4rem, 3.5vw, 2.75rem);
+  line-height: 1.15;
+}
+
+.text-section-title {
+  font-size: clamp(2rem, 5vw, 4rem);
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+}
+
+/* Subtle Architectural Shadows */
+.shadow-subtle {
+  box-shadow: 0 1px 3px 0 rgba(0, 59, 92, 0.05), 0 1px 2px -1px rgba(0, 59, 92, 0.05);
+}
+
+.shadow-card {
+  box-shadow: 0 4px 6px -1px rgba(0, 59, 92, 0.05), 0 2px 4px -2px rgba(0, 59, 92, 0.03);
+}
+
+.shadow-card-hover {
+  box-shadow: 0 12px 24px -4px rgba(0, 59, 92, 0.1), 0 4px 8px -2px rgba(0, 59, 92, 0.05);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4A5568;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-navy);
+}
+
+/* Lenis CSS */
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+/* Profile Tech Stack Orbit Animations */
+@keyframes profile-orbit-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes profile-orbit-counter {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.animate-profile-orbit {
+  animation: profile-orbit-spin 42s linear infinite;
+  will-change: transform;
+}
+
+.animate-profile-counter {
+  animation: profile-orbit-counter 42s linear infinite;
+  will-change: transform;
+}
+
+.pause-orbit:hover .animate-profile-orbit,
+.pause-orbit:hover .animate-profile-counter {
+  animation-play-state: paused;
+}
+
+/* Calligraphy Typography Classes */
+.font-calligraphy {
+  font-family: var(--font-calligraphy), cursive;
+}
+
+.font-calligraphy-ar {
+  font-family: var(--font-arabic-calligraphy), cursive;
+}
