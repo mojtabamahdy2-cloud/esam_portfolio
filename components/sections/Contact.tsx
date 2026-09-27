@@ -46,7 +46,7 @@ export function ContactSection() {
 
             {/* Email */}
             <a
-              href="mailto:esam1492@gmail.com"
+              href="mailto:esamelamin2@gmail.com"
               data-cursor="link"
               className="group flex items-center justify-between rounded-2xl border border-transparent bg-[#003B5C] p-4 transition-all duration-200 hover:bg-[#00283E] hover:shadow-md"
             >
@@ -59,7 +59,7 @@ export function ContactSection() {
                     {t('emailLabel')}
                   </div>
                   <div className="text-sm font-bold text-white">
-                    esam1492@gmail.com
+                    esamelamin2@gmail.com
                   </div>
                 </div>
               </div>

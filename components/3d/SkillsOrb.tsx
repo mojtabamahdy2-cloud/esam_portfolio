@@ -19,7 +19,6 @@ const skillsList: { name: string; category: 'design' | 'production' | 'hardware'
   { name: 'Heat Press', category: 'production' },
   { name: 'InDesign', category: 'design' },
   { name: 'ZSK Embroidery', category: 'hardware' },
-  { name: 'CorelDraw', category: 'design' },
   { name: 'Trotec Laser', category: 'hardware' },
   { name: 'Sublimation', category: 'production' },
   { name: 'HAPPY Multi-Head', category: 'hardware' },

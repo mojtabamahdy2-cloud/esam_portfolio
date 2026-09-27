@@ -54,24 +54,12 @@ export const skillsData: SkillItem[] = [
     highlight: true,
     logoUrl: '/images/skills/indesign.svg',
   },
-  {
-    id: 'coreldraw',
-    name: 'CorelDraw',
-    category: 'design',
-    level: 92,
-    proficiencyEn: 'Expert',
-    proficiencyAr: 'مستوى خبير',
-    focusEn: 'Laser CNC contours, signage engineering & vector prep',
-    focusAr: 'إعداد خطوط القص لماكينات الليزر وتصميم اللوحات الإعلانية',
-    years: 7,
-    highlight: true,
-    logoUrl: '/images/skills/coreldraw.svg',
-  },
+
 
   // ── Digital Print & Production ────────────────────────────
   {
     id: 'epson-sublimation',
-    name: 'EPSON SureColor F9500',
+    name: 'EPSON F9500',
     category: 'production',
     level: 95,
     proficiencyEn: 'Specialist',
