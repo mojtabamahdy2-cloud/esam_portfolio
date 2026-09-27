@@ -21,7 +21,7 @@
   "about": {
     "sectionLabel": "About Me",
     "headline": "Crafting visual excellence from digital canvas to industrial production.",
-    "bio": "I am a Graphic Designer and Digital Production Specialist with 8+ years of hands-on experience bridging creative visual design with high-precision industrial manufacturing. Holding a degree in Computer Engineering, I specialize in large-format printing, roll-to-roll dye-sublimation on EPSON F9500 systems, computerized Wilcom embroidery programming, and CNC laser fabrication across Saudi Arabia and Sudan.",
+    "bio": "Graphic Designer and Digital Production Specialist with 8+ years of experience. I specialize in bringing digital designs to life through advanced sublimation, CNC laser, and industrial embroidery systems—with a strong focus on high-quality, intricate embroidery for t-shirts, chest vests, hats, and abayat.",
     "stats": {
       "experience": "8+ Years Experience",
       "projects": "100+ Production Campaigns",
@@ -95,5 +95,17 @@
   },
   "abayat": {
     "title": "Abaya Design Work Samples"
+  },
+  "hats": {
+    "title": "Hats Embroidery"
+  },
+  "tshirts": {
+    "title": "T-Shirts Embroidery"
+  },
+  "chestvests": {
+    "title": "Chest Vests Embroidery"
+  },
+  "abayaConcepts": {
+    "title": "Abayat Concept Development"
   }
 }
