@@ -23,16 +23,16 @@ const abayatData = [
   {
     "folder": "4",
     "images": [
-      "1dabeab2-f2aa-42ac-a6f6-a015d8620a94-691.82389937107x1000-hP0J0uMSEGZwZTqzTjgIePmyBXORxsXBQbvWiwjd.jpg",
-      "a63776e5-e1af-4d4c-86d9-5d21c17a89f7-698.4126984127x1000-QKVh663GyrmxM0DjhwVYzUzNMsVdHTPUXx9zpoLF.jpg",
-      "eefff286-2a6a-4a24-bebe-5a56859be86e-689.65517241379x1000-poBi3tf8v1XMrGAwRXlBYpJOTYMpCMkJzG4zJvEs.jpg"
+      "ChatGPT Image Sep 29, 2026, 09_03_56 PM.jpg",
+      "ChatGPT Image Sep 29, 2026, 09_41_12 PM.jpg",
+      "a63776e5-e1af-4d4c-86d9-5d21c17a89f7-698.4126984127x1000-QKVh663GyrmxM0DjhwVYzUzNMsVdHTPUXx9zpoLF.jpg"
     ]
   },
   {
     "folder": "8",
     "images": [
+      "ChatGPT Image Sep 29, 2026, 09_47_47 PM.jpg",
       "2d8316ef-4ccf-4871-a3d2-28a26b763907-685.71428571429x1000-ox0rYFmNpAmhMQsHmDAeqw5R57kMjAL8vYcK9rEx.jpg",
-      "b0ea276f-370b-40e1-828c-117690d187f9-689.29503916449x1000-ne0H7hnIREhdzsApzUOKVulJjVxgZtyWvwlEFrl1.jpg",
       "c7157f5f-b0fb-445f-a849-5544bcc99ccd-691.09947643979x1000-G1J859NKH0uy6u7jRjSVfF3wKlxDXL1zIm5jyqr5.jpg"
     ]
   },
@@ -40,8 +40,8 @@ const abayatData = [
     "folder": "12",
     "images": [
       "4cc48fa3-c344-4877-9fb5-4950415d17bc-749.86346258875x1000-mCg1NRhduTL35nNO8X6eOMvdLRImuVRn0ZOY3AFk.jpg",
-      "58fea9e3-cef3-446c-8ebe-50fe7236e38a-749.87066735644x1000-fyq90nIVGlrWSj5LHp7ID2sp8rWqn4kLQHU595ch.jpg",
-      "eb7f12e1-f178-49a6-8ad9-56618bfbe3df-750.25075225677x1000-D99sE0Vn3PfApn6DEa4UfcZIvKjxlSxNXcs9wSXA.jpg"
+      "2.jpg",
+      "3.jpg"
     ]
   },
   {
