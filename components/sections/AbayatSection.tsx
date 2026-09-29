@@ -7,6 +7,13 @@ import { useTranslations } from 'next-intl';
 
 const abayatData = [
   {
+    "folder": "1",
+    "images": [
+      "ChatGPT Image Sep 28, 2026, 01_13_46 AM.jpg",
+      "ChatGPT Image Sep 28, 2026, 01_13_42 AM.jpg"
+    ]
+  },
+  {
     "folder": "3",
     "images": [
       "0655a427-acb7-4a37-913d-ddfe7cd10eae-666.66666666667x1000-TUSTuh7Zt7Oiy3WMc9HjcWNpGd2SqedOQ64DPSaX.jpg",

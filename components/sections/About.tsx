@@ -68,7 +68,7 @@ export function AboutSection() {
               {/* Portrait Photo of Esam Mohamed */}
               <div className="relative z-10 w-60 h-60 sm:w-72 sm:h-72 select-none flex items-center justify-center drop-shadow-2xl">
                 <Image
-                  src="/Profile picture/profile.png"
+                  src="/Profile picture/profile_picture.webp"
                   alt="Esam Mohamed"
                   fill
                   sizes="(max-width: 768px) 256px, 288px"
