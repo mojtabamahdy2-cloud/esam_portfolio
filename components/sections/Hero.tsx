@@ -6,6 +6,7 @@ import { useTranslations } from 'next-intl';
 import { motion, AnimatePresence } from 'motion/react';
 
 import { RoleIconDisplay } from '@/components/ui/RoleIconDisplay';
+import { StitchedName } from '@/components/ui/StitchedName';
 
 // Dynamic import of 3D WebGL Hero Canvas with SSR disabled
 const HeroScene = dynamic(() => import('@/components/3d/HeroScene'), {
@@ -46,9 +47,9 @@ export function HeroSection() {
             initial={{ clipPath: 'inset(0 0 100% 0)' }}
             animate={{ clipPath: 'inset(-5% -5% -5% -5%)' }}
             transition={{ duration: 1.0, ease: [0.16, 1, 0.3, 1], delay: 0.1 }}
-            className="text-display font-black tracking-tighter text-[#003B5C] uppercase selection:bg-[#EBF5FA] selection:text-[#003B5C]"
+            className="w-full uppercase selection:bg-[#EBF5FA] selection:text-[#003B5C]"
           >
-            {t('name')}
+            <StitchedName name={t('name')} />
           </motion.h1>
 
           {/* Cycling Multi-Discipline Roles with clean, solid typography */}
