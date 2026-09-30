@@ -9,8 +9,15 @@ const abayatData = [
   {
     "folder": "1",
     "images": [
-      "ChatGPT Image Sep 28, 2026, 01_13_46 AM.jpg",
-      "ChatGPT Image Sep 28, 2026, 01_13_42 AM.jpg"
+      "ChatGPT Image Sep 28, 2026, 01_13_42 AM.jpg",
+      "ChatGPT Image Sep 28, 2026, 01_13_46 AM.jpg"
+    ]
+  },
+  {
+    "folder": "2",
+    "images": [
+      "2.jpg",
+      "b0036525-b20c-4f81-b0af-b332b009653b-800x1000-DmMRrDo41qhsLjoccVK6nZHQousJqfMxC5OD9K2i.jpg"
     ]
   },
   {
@@ -29,34 +36,31 @@ const abayatData = [
     ]
   },
   {
-    "folder": "8",
+    "folder": "5",
     "images": [
-      "ChatGPT Image Sep 29, 2026, 09_47_47 PM.jpg",
       "2d8316ef-4ccf-4871-a3d2-28a26b763907-685.71428571429x1000-ox0rYFmNpAmhMQsHmDAeqw5R57kMjAL8vYcK9rEx.jpg",
+      "ChatGPT Image Sep 29, 2026, 09_47_47 PM.jpg",
       "c7157f5f-b0fb-445f-a849-5544bcc99ccd-691.09947643979x1000-G1J859NKH0uy6u7jRjSVfF3wKlxDXL1zIm5jyqr5.jpg"
     ]
   },
   {
-    "folder": "12",
+    "folder": "6",
     "images": [
-      "4cc48fa3-c344-4877-9fb5-4950415d17bc-749.86346258875x1000-mCg1NRhduTL35nNO8X6eOMvdLRImuVRn0ZOY3AFk.jpg",
       "2.jpg",
-      "3.jpg"
+      "3.jpg",
+      "4cc48fa3-c344-4877-9fb5-4950415d17bc-749.86346258875x1000-mCg1NRhduTL35nNO8X6eOMvdLRImuVRn0ZOY3AFk.jpg"
     ]
   },
   {
-    "folder": "13",
+    "folder": "7",
     "images": [
-      "56793e91-2f54-40d1-9270-625f3b23a6db-799.69954932399x1000-wmXvHa77RjBPRDXIPI4Mb8vkJ38Gs46yARfmpXf9.jpg",
-      "77af353f-b006-4c24-a1ac-df9eb19aedf5-799.67948717949x1000-YtBu2yPWNx5MFbEyuYTxzdmD7AWvBtvr7kZMOWza.jpg",
       "9d68dc56-6457-4257-99f2-346860e22d79-799.80276134122x1000-MWGK00PVBKh1fe3oGzUTi6suXwTrrQ8f5Z0vyC5q.jpg",
-      "b0036525-b20c-4f81-b0af-b332b009653b-800x1000-DmMRrDo41qhsLjoccVK6nZHQousJqfMxC5OD9K2i.jpg",
       "e400a630-477a-48c6-85ec-96ba99aa8ff6-799.60415635824x1000-U119EqWdBpf3JBFqAHlvKNMsbHLuSQ7rLPNrZsqV.jpg",
       "ef1429f8-5ea8-46ec-b7b2-2679542b7e61-799.70178926441x1000-cjsoOuuyfccJ5TIdFUgggkDFnL7dLJbA4OguTMeu.jpg"
     ]
   },
   {
-    "folder": "14",
+    "folder": "8",
     "images": [
       "5ec7fb7e-4ede-4890-a371-f1b3e8c05ff1-799.60415635824x1000-egH97zXJXtOP6jjTbmo6wY9nNSqc54UefUrP2a82.jpg",
       "8f87627b-053d-44f6-abab-b5804cd9319d-799.68863518422x1000-vGoDoVxofSXNMcZZwrwLuWDg1gm9hHJOC39ljiY7.jpg",
@@ -64,7 +68,7 @@ const abayatData = [
     ]
   },
   {
-    "folder": "15",
+    "folder": "9",
     "images": [
       "61e84b4f-c748-40d0-badc-125e0eec1f4d-704x1000-AvmAyKYVNNimT4vrcsdF10DaYFmRXcDcHWwCG891.jpg",
       "d452b549-cf6d-4739-b1d4-ec60e05e15f1-711.59029649596x1000-NZBa2xUwSdnJuNcrGQePMqfVsTYSVlbC0MeYqtXe.jpg",
@@ -72,7 +76,7 @@ const abayatData = [
     ]
   },
   {
-    "folder": "22",
+    "folder": "10",
     "images": [
       "1d6885ac-98ba-478d-8ebc-9b79859a056c-713.51351351351x1000-P6MpHwsFyrObJxNjQIAnQHbhb9ItHHjg5HUdxb9f.jpg",
       "f296ce3b-f843-43ae-b7da-2a2096434ac9-708.91514500537x1000-pEszjr5cmAojSnBSx9nPE0o58tzBm8djsW9veGKy.jpg",
@@ -80,10 +84,10 @@ const abayatData = [
     ]
   },
   {
-    "folder": "40",
+    "folder": "11",
     "images": [
       "18da9172-1285-4394-875f-77852da74d41-688.21689259645x1000-2Z4wUzpSxtIHp3gsEKxGcVuGmg3iHP4g8WiNjV61.jpg",
-      "2d844809-698b-4458-90f9-c28b41173bd0-704.7517351842x1000-WqQFtyLwwlPQgWQpvh1iKYtvcRvjpXAPk58VWaZ5.jpg",
+      "2.jpg",
       "8bb77952-e9c0-4782-a52e-b7c4432e3908-682.52326783868x1000-IuhG32iLJ0xcTPMOdK8vX7mmNPoWJU6ugSZAFrZA.jpg"
     ]
   }
@@ -180,7 +184,7 @@ export const AbayatSection = () => {
       </div>
 
       {/* Slide Indicators */}
-      <div className="flex gap-2 mt-8">
+      <div className="flex flex-wrap justify-center gap-2 mt-8">
         {abayatData.map((_, idx) => (
           <button
             key={idx}
